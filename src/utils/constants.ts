@@ -3,7 +3,7 @@ import { ExperienceType, Achievement, Project } from '../types';
 export const experiences: ExperienceType[] = [
   {
     id: '1',
-    company: 'TechCorp Solutions',
+    company: 'John Deere India Pvt Ltd',
     position: 'Software Developer',
     duration: 'Jan 2022 - Present',
     location: 'Bangalore, India',
@@ -99,11 +99,11 @@ export const projects: Project[] = [
 ];
 
 export const personalInfo = {
-  name: 'Your Name',
+  name: 'Aviral Pulast',
   title: 'Software Developer',
-  email: 'your.email@example.com',
-  phone: '+91 98765 43210',
-  location: 'Bangalore, India',
-  experience: '2.5 years',
-  about: 'Passionate software developer with 2.5 years of experience in building scalable web applications. Experienced in modern JavaScript frameworks, cloud technologies, and agile development methodologies. Always eager to learn new technologies and contribute to innovative projects.'
+  email: 'apulast@gmail.com',
+  phone: '+91 78380 48146',
+  location: 'Pune, India',
+  experience: '2 years',
+  about: 'Passionate software developer with 2 years of experience in building scalable web applications. Experienced in modern JavaScript frameworks, cloud technologies, and agile development methodologies. Always eager to learn new technologies and contribute to innovative projects.'
 };

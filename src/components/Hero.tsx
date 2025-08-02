@@ -45,15 +45,15 @@ const Hero: React.FC = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="animate-fade-in-up">
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
-            {/* Photo Placeholder */}
+            {/* Profile Photo */}
             <div className="flex-shrink-0">
-              <div className="w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 bg-gradient-to-br from-olive-100 to-stone-100 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 border-4 border-white">
-                <div className="text-center">
-                  <div className="w-20 h-20 sm:w-24 sm:h-24 bg-olive-200 rounded-full mx-auto mb-3 flex items-center justify-center">
-                    <span className="text-3xl sm:text-4xl text-olive-400">📷</span>
-                  </div>
-                  <span className="text-sm text-gray-500 font-medium">Add Photo</span>
-                </div>
+              <div className="w-60 h-60 sm:w-60 sm:h-60 lg:w-72 lg:h-72 bg-gradient-to-br from-olive-100 to-stone-100 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 border-4 border-white overflow-hidden">
+                <img
+                  src="/aphoto.jpeg"
+                  alt="Profile Photo"
+                  className="w-full h-full object-cover object-center"
+                  draggable={false}
+                />
               </div>
             </div>
             
