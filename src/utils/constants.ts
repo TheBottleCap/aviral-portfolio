@@ -4,40 +4,44 @@ export const experiences: ExperienceType[] = [
   {
     id: '1',
     company: 'John Deere India Pvt Ltd',
-    position: 'Software Developer',
-    duration: 'Jan 2022 - Present',
-    location: 'Bangalore, India',
+    position: 'Senior Software Engineer',
+    duration: 'Jul 2024 - Present',
+    location: 'Pune, India',
     description: [
-      'Developed and maintained scalable web applications using React.js and Node.js',
-      'Collaborated with cross-functional teams to deliver high-quality software solutions',
-      'Implemented responsive designs and optimized application performance',
-      'Participated in code reviews and mentored junior developers',
-      'Led the development of a customer portal that increased user engagement by 40%',
-      'Optimized database queries resulting in 30% faster page load times',
-      'Implemented automated testing strategies reducing bugs in production by 50%',
-      'Worked closely with product managers to define technical requirements',
-      'Contributed to architectural decisions for microservices migration'
+      'Developed a real-time camera monitoring portal (CamTracker) for production lines, integrated image feeds, implemented Redis-based caching for high-volume data handling, and optimized performance for large-scale factory environments.',
+      'Redesigned UI for a production tool (JDAAT), reducing operator screen read time from 7 to 8 seconds to 2 to 3 seconds to allow faster shop floor decisions.',
+      'Developed end-to-end budget management and workflow tracking tools for factory operations, building backend APIs in Go and Spring Boot, and frontend interfaces in React.js to automate manual planning and phase-based product tracking.',
+      'Contributed to the agile delivery pipeline of the SCF team, coordinating with cross-functional stakeholders to iteratively deliver horizontally deployed solutions used in Deere factories around the world.',
+      'Delivered multiple software initiatives with a combined estimated cost savings of over $5 million, driven by improvements in automation, visibility, and operational efficiency.'
     ],
-    technologies: ['React', 'Node.js', 'TypeScript', 'MongoDB', 'AWS']
+    technologies: ['React.js', 'Go', 'Spring Boot', 'Redis', 'TypeScript', 'Agile', 'UI/UX', 'Factory Automation']
   },
   {
     id: '2',
-    company: 'Innovation Labs',
-    position: 'Junior Software Developer',
-    duration: 'Jun 2021 - Dec 2021',
-    location: 'Mumbai, India',
+    company: 'John Deere India Pvt Ltd',
+    position: 'Graduate Engineer Trainee',
+    duration: 'Jul 2023 - Jul 2024',
+    location: 'Pune, India',
     description: [
-      'Built RESTful APIs and integrated third-party services',
-      'Worked on database design and optimization',
-      'Contributed to agile development processes',
-      'Gained experience in testing and debugging applications',
-      'Developed internal tools that improved team productivity by 25%',
-      'Participated in daily standups and sprint planning sessions',
-      'Created comprehensive documentation for API endpoints',
-      'Collaborated with QA team to ensure high-quality deliverables',
-      'Learned and implemented CI/CD pipelines using Jenkins'
+      'Developed an Android-based mistake proofing application to assist operators in validating assembly processes, saving approximately 8 hours of manual effort daily.',
+      'Automated internal workflow processes using PowerApps and Power Automate, reducing operational overhead and generating cost savings of up to $5,000.',
+      'Contributed to a web-based HR platform built using React.js and Python, streamlining community enrollment processes and delivering estimated annual savings of $100,000.'
     ],
-    technologies: ['JavaScript', 'Python', 'PostgreSQL', 'Docker', 'Git']
+    technologies: ['Android (Kotlin)', 'PowerApps', 'Power Automate', 'React.js', 'Python']
+  },
+  {
+    id: '3',
+    company: 'PrepInsta (Adda247)',
+    position: 'Software Developer Intern',
+    duration: 'Dec 2022 - Mar 2023',
+    location: 'Noida, India',
+    description: [
+      'Built a CRM tool to automate hiring drive updates, benefiting 500,000+ students nationwide.',
+      'Improved UI on the company\'s website by identifying and resolving user experience issues.',
+      'Created several Java and Android projects as placement preparation material for students.',
+      'Recorded and delivered video lectures to support student learning and placement readiness.'
+    ],
+    technologies: ['JavaScript', 'Java', 'Android', 'Git']
   }
 ];
 

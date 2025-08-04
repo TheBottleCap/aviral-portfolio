@@ -94,8 +94,8 @@ const Hero: React.FC = () => {
                 </button>
                 
                 <a
-                  href="/resume.pdf"
-                  download="Your_Name_Resume.pdf"
+                  href="/resume1.3.pdf"
+                  download="Aviral_Pulast_Resume.pdf"
                   className="inline-flex items-center gap-2 px-8 py-3 bg-stone-200 hover:bg-stone-300 text-gray-800 rounded-full transition-all duration-300 hover:transform hover:scale-105"
                 >
                   Download Resume
