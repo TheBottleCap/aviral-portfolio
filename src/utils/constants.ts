@@ -48,29 +48,29 @@ export const experiences: ExperienceType[] = [
 export const achievements: Achievement[] = [
   {
     id: '1',
-    title: 'AWS Cloud Practitioner Certification',
-    description: 'Achieved AWS Cloud Practitioner certification demonstrating foundational cloud knowledge',
-    date: 'March 2023',
-    category: 'certification'
+    title: 'Published Research Paper',
+    description: 'Published a research paper on "Baggage Recognition and Collection at Airports"',
+    date: 'November 2022',
+    category: 'publication'
   },
   {
     id: '2',
     title: 'Best Performance Award',
-    description: 'Recognized for outstanding performance and contribution to team success',
-    date: 'December 2022',
+    description: 'Recognized for outstanding performance and contribution to team success 4 times in a row',
+    date: 'July 2023 - Present',
     category: 'award'
   },
   {
     id: '3',
-    title: 'Full Stack Development Bootcamp',
-    description: 'Completed intensive 6-month bootcamp covering modern web technologies',
-    date: 'May 2021',
-    category: 'certification'
+    title: 'Organizing Committee Member',
+    description: 'Serving as a core member of the communications team, coordinating technical fests and departmental events.',
+    date: 'Ongoing',
+    category: 'leadership'
   },
   {
     id: '4',
-    title: '10+ Projects Delivered',
-    description: 'Successfully delivered over 10 projects with 100% client satisfaction',
+    title: '$5M Cost Savings',
+    description: 'Delivered multiple software initiatives with a combined estimated cost savings of over $5 million, driven by improvements in automation, visibility, and operational efficiency.',
     date: 'Ongoing',
     category: 'milestone'
   }

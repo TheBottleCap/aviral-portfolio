@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
             Made with <Heart size={16} className="text-red-400" fill="currentColor" /> for career growth
           </p>
           <p className="text-gray-400 text-sm mt-2">
-            © 2025 Portfolio. All rights reserved.
+            © 2025 AP. All rights reserved.
           </p>
         </div>
       </div>

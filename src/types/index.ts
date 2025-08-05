@@ -13,7 +13,7 @@ export interface Achievement {
   title: string;
   description: string;
   date: string;
-  category: 'certification' | 'award' | 'milestone';
+  category: 'certification' | 'award' | 'milestone' | 'publication' | 'leadership';
 }
 
 export interface Project {

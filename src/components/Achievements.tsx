@@ -1,5 +1,5 @@
 import React from 'react';
-import { Award, BookOpen, Target } from 'lucide-react';
+import { Award, BookOpen, Target, PenLine, Users, User } from 'lucide-react';
 import { achievements } from '../utils/constants';
 import { useParallax } from '../hooks/useParallax';
 
@@ -10,6 +10,12 @@ const Achievements: React.FC = () => {
     switch (category) {
       case 'certification':
         return <BookOpen size={20} />;
+      case 'publication':
+        return <PenLine size={20} />;
+      case 'court':
+        return <Users size={20} />;
+      case 'leadership':
+        return <User size={20} />;
       case 'award':
         return <Award size={20} />;
       case 'milestone':
@@ -23,6 +29,12 @@ const Achievements: React.FC = () => {
     switch (category) {
       case 'certification':
         return 'bg-blue-100 text-blue-600';
+      case 'publication':
+        return 'bg-pink-100 text-pink-600';
+      case 'court':
+        return 'bg-indigo-100 text-indigo-600';
+      case 'leadership':
+        return 'bg-orange-100 text-orange-600';
       case 'award':
         return 'bg-yellow-100 text-yellow-600';
       case 'milestone':
@@ -54,7 +66,7 @@ const Achievements: React.FC = () => {
       
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-light text-gray-800 mb-4">Achievements</h2>
+          <h2 className="text-3xl sm:text-4xl font-light text-gray-800 mb-4">{'Achievements & Responsibilities'}</h2>
           <div className="w-20 h-1 bg-olive-200 mx-auto"></div>
         </div>
         
