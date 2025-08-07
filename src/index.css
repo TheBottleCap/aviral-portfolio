@@ -39,6 +39,19 @@ html {
   animation: fade-in-up 0.8s ease-out;
 }
 
+@keyframes fadeInName {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.animate-fade-in-name {
+  opacity: 0;
+  animation: fadeInName 1.2s ease forwards;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
