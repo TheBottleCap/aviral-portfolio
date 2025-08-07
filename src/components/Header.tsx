@@ -37,7 +37,7 @@ const Header: React.FC = () => {
           
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              {['experience', 'achievements', 'projects'].map((item) => (
+              {['experience', 'achievements', 'contact'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item)}
@@ -61,7 +61,7 @@ const Header: React.FC = () => {
 
         {isMenuOpen && (
           <div className="md:hidden bg-white/95 backdrop-blur-md rounded-lg mt-2 p-4 shadow-lg">
-            {['about', 'experience', 'achievements', 'projects'].map((item) => (
+            {['experience', 'achievements', 'contact'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}

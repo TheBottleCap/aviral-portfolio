@@ -42,6 +42,21 @@ export const experiences: ExperienceType[] = [
       'Recorded and delivered video lectures to support student learning and placement readiness.'
     ],
     technologies: ['JavaScript', 'Java', 'Android', 'Git']
+  },
+  {
+    id: '4',
+    company: 'Waltrump Technology',
+    position: 'Android Developer',
+    duration: 'Oct 2021 - Dec 2021',
+    location: 'Remote',
+    description: [
+      'Worked as an Android Developer for a startup, focusing on the UI development of the product.',
+      'Implemented modern UI components and user flows using Kotlin, ensuring a seamless user experience.',
+      'Collaborated with cross-functional teams in an agile environment to deliver features on schedule.',
+      'Gained hands-on experience with enterprise-level coding standards and version control using GitHub.',
+      'Adapted quickly to remote work culture, communicating effectively with team members and stakeholders.'
+    ],
+    technologies: ['Android(Kotlin)', 'Figma', 'Agile', 'GitHub']
   }
 ];
 

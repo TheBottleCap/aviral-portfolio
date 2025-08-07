@@ -43,16 +43,15 @@ const Achievements: React.FC = () => {
         return 'bg-purple-100 text-purple-600';
     }
   };
-
-  return (
-    <section id="achievements" className="py-20 bg-gradient-to-br from-white via-stone-50/30 to-olive-50/20 relative overflow-hidden">
+ return (
+    <section id="achievements" className="py-20 bg-gradient-to-br from-beige-50 via-beige-100/50 to-beige-200/30 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-20 right-32 w-32 h-32 bg-gradient-to-br from-olive-100/20 to-stone-100/20 rounded-full blur-2xl animate-pulse-glow"></div>
-        <div className="absolute bottom-32 left-16 w-44 h-44 bg-gradient-to-br from-beige-100/15 to-olive-100/15 rounded-full blur-3xl animate-float-reverse"></div>
-        <div className="absolute top-1/3 left-1/2 w-5 h-5 bg-stone-300/60 rounded-full animate-drift" style={{ animationDelay: '1s' }}></div>
-        <div className="absolute bottom-1/4 right-1/3 w-3 h-3 bg-olive-400/50 rounded-full animate-float" style={{ animationDelay: '3s' }}></div>
-        <div className="absolute top-2/3 left-1/4 w-7 h-7 bg-gradient-to-br from-stone-200/40 to-beige-200/40 rotate-45 animate-float-reverse" style={{ animationDelay: '5s' }}></div>
+        <div className="absolute top-20 right-32 w-32 h-32 bg-gradient-to-br from-beige-200/20 to-beige-300/20 rounded-full blur-2xl animate-pulse-glow"></div>
+        <div className="absolute bottom-32 left-16 w-44 h-44 bg-gradient-to-br from-beige-100/15 to-beige-200/15 rounded-full blur-3xl animate-float-reverse"></div>
+        <div className="absolute top-1/3 left-1/2 w-5 h-5 bg-beige-400/60 rounded-full animate-drift" style={{ animationDelay: '1s' }}></div>
+        <div className="absolute bottom-1/4 right-1/3 w-3 h-3 bg-beige-500/50 rounded-full animate-float" style={{ animationDelay: '3s' }}></div>
+        <div className="absolute top-2/3 left-1/4 w-7 h-7 bg-gradient-to-br from-beige-300/40 to-beige-400/40 rotate-45 animate-float-reverse" style={{ animationDelay: '5s' }}></div>
       </div>
       
       {/* Parallax background layer */}
@@ -60,13 +59,13 @@ const Achievements: React.FC = () => {
         className="absolute inset-0 opacity-8"
         style={{ transform: `translateY(${parallaxOffset}px)` }}
       >
-        <div className="absolute top-40 right-48 w-18 h-18 bg-stone-300 rounded-full blur-xl"></div>
-        <div className="absolute bottom-48 left-32 w-26 h-26 bg-olive-200 rounded-full blur-xl"></div>
+        <div className="absolute top-40 right-48 w-18 h-18 bg-beige-400 rounded-full blur-xl"></div>
+        <div className="absolute bottom-48 left-32 w-26 h-26 bg-beige-300 rounded-full blur-xl"></div>
       </div>
       
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-light text-gray-800 mb-4">{'Achievements & Responsibilities'}</h2>
+          <h2 className="text-3xl sm:text-4xl font-light text-gray-800 mb-4">Achievements</h2>
           <div className="w-20 h-1 bg-olive-200 mx-auto"></div>
         </div>
         

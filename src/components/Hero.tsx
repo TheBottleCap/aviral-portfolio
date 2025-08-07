@@ -14,25 +14,24 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-white via-stone-50/30 to-olive-50/20">
+        <section className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-beige-50 via-beige-100/50 to-beige-200/30">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {/* Large floating circles */}
-        <div className="absolute top-20 left-20 w-32 h-32 bg-gradient-to-br from-olive-200/40 to-stone-200/40 rounded-full blur-2xl animate-float"></div>
-        <div className="absolute bottom-40 right-32 w-48 h-48 bg-gradient-to-br from-beige-200/30 to-olive-100/30 rounded-full blur-3xl animate-float-reverse"></div>
-        <div className="absolute top-1/2 left-1/2 w-24 h-24 bg-gradient-to-br from-stone-300/50 to-olive-200/50 rounded-full blur-xl animate-pulse-glow"></div>
+        <div className="absolute top-20 left-20 w-32 h-32 bg-gradient-to-br from-beige-300/40 to-beige-400/40 rounded-full blur-2xl animate-float"></div>
+        <div className="absolute bottom-40 right-32 w-48 h-48 bg-gradient-to-br from-beige-200/30 to-beige-300/30 rounded-full blur-3xl animate-float-reverse"></div>
+        <div className="absolute top-1/2 left-1/2 w-24 h-24 bg-gradient-to-br from-beige-400/50 to-beige-300/50 rounded-full blur-xl animate-pulse-glow"></div>
         
         {/* Small floating dots */}
-        <div className="absolute top-32 right-1/4 w-4 h-4 bg-olive-300/60 rounded-full animate-drift"></div>
-        <div className="absolute bottom-1/3 left-1/4 w-3 h-3 bg-stone-400/50 rounded-full animate-float" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute top-32 right-1/4 w-4 h-4 bg-beige-400/60 rounded-full animate-drift"></div>
+        <div className="absolute bottom-1/3 left-1/4 w-3 h-3 bg-beige-500/50 rounded-full animate-float" style={{ animationDelay: '2s' }}></div>
         <div className="absolute top-2/3 right-1/3 w-5 h-5 bg-beige-400/40 rounded-full animate-float-reverse" style={{ animationDelay: '4s' }}></div>
-        <div className="absolute bottom-20 left-2/3 w-2 h-2 bg-olive-400/70 rounded-full animate-drift" style={{ animationDelay: '6s' }}></div>
+        <div className="absolute bottom-20 left-2/3 w-2 h-2 bg-beige-500/70 rounded-full animate-drift" style={{ animationDelay: '6s' }}></div>
         
         {/* Geometric shapes */}
-        <div className="absolute top-1/4 left-1/3 w-8 h-8 bg-gradient-to-br from-stone-200/40 to-olive-200/40 rotate-45 animate-float" style={{ animationDelay: '1s' }}></div>
-        <div className="absolute bottom-1/4 right-1/4 w-6 h-6 bg-gradient-to-br from-beige-300/50 to-stone-300/50 rotate-12 animate-float-reverse" style={{ animationDelay: '3s' }}></div>
+        <div className="absolute top-1/4 left-1/3 w-8 h-8 bg-gradient-to-br from-beige-300/40 to-beige-400/40 rotate-45 animate-float" style={{ animationDelay: '1s' }}></div>
+        <div className="absolute bottom-1/4 right-1/4 w-6 h-6 bg-gradient-to-br from-beige-400/50 to-beige-300/50 rotate-12 animate-float-reverse" style={{ animationDelay: '3s' }}></div>
       </div>
-      
       {/* Parallax background layer */}
       <div 
         className="absolute inset-0 opacity-10"
