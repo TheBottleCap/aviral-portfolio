@@ -124,5 +124,5 @@ export const personalInfo = {
   phone: '+91 78380 48146',
   location: 'Pune, India',
   experience: '2 years',
-  about: 'Passionate software developer with 2 years of experience in building scalable web applications. Experienced in modern JavaScript frameworks, cloud technologies, and agile development methodologies. Always eager to learn new technologies and contribute to innovative projects.'
+  about: 'I am an experienced software developer focused on building reliable web/mobile applications. I am skilled in modern full-stack development, cloud platforms, and agile practices, and I focus on delivering efficient solutions while collaborating effectively within teams.'
 };
