@@ -9,25 +9,25 @@ const TechnicalSkills: React.FC = () => {
     {
       title: 'Frontend',
       icon: <Code size={20} />,
-      skills: ['React', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Vue.js'],
+      skills: ['Next.js', 'JavaScript/TypeScript', 'HTML5/CSS3', 'Kotlin', 'R/Shiny', 'Swift'],
       color: 'bg-blue-100 text-blue-600'
     },
     {
       title: 'Backend',
       icon: <Database size={20} />,
-      skills: ['Node.js', 'Express.js', 'Python', 'Flask', 'REST APIs', 'GraphQL'],
+      skills: ['Golang', 'Java (Spring Boot)', 'Node.js', 'Python', 'REST APIs'],
       color: 'bg-green-100 text-green-600'
     },
     {
       title: 'Database & Cloud',
       icon: <Cloud size={20} />,
-      skills: ['PostgreSQL', 'MongoDB', 'AWS', 'Docker', 'Kubernetes'],
+      skills: ['MySQL', 'PostgreSQL', 'MongoDB', 'Databricks', 'Redis', 'Docker'],
       color: 'bg-purple-100 text-purple-600'
     },
     {
       title: 'Tools & Others',
       icon: <Wrench size={20} />,
-      skills: ['Git', 'Jenkins', 'Socket.io', 'JWT', 'Stripe API', 'Chart.js', 'D3.js'],
+      skills: ['Git/Github', 'JWT', 'JIRA', 'Slack', 'Microsoft Power Platforms'],
       color: 'bg-orange-100 text-orange-600'
     }
   ];
