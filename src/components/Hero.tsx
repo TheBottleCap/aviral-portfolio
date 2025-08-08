@@ -1,5 +1,12 @@
 import React from "react";
-import { ArrowDown, Mail, Phone, MapPin, Download, Linkedin, LinkedinIcon } from "lucide-react";
+import {
+  ArrowDown,
+  Mail,
+  Phone,
+  MapPin,
+  Download,
+  Linkedin,
+} from "lucide-react";
 import { experiences, personalInfo } from "../utils/constants";
 import { useParallax } from "../hooks/useParallax";
 
