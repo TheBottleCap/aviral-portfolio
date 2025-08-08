@@ -21,13 +21,13 @@ const Experience: React.FC = () => {
   };
 
   return (
-    <section id="experience" className="py-20 bg-gradient-to-br from-olive-50 via-olive-100/50 to-olive-200/30 relative overflow-hidden">
+    <section id="experience" className="py-20 bg-gradient-to-br from-beige-50 via-beige-100/50 to-beige-200/30 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-32 left-16 w-28 h-28 bg-gradient-to-br from-olive-200/30 to-olive-300/30 rounded-full blur-2xl animate-float-reverse"></div>
-        <div className="absolute bottom-16 right-20 w-40 h-40 bg-gradient-to-br from-olive-100/25 to-olive-200/25 rounded-full blur-3xl animate-float"></div>
-        <div className="absolute top-1/2 right-1/3 w-6 h-6 bg-olive-300/50 rounded-full animate-drift" style={{ animationDelay: '2s' }}></div>
-        <div className="absolute bottom-1/3 left-1/4 w-4 h-4 bg-olive-400/60 rounded-full animate-float" style={{ animationDelay: '4s' }}></div>
+        <div className="absolute top-32 left-16 w-28 h-28 bg-gradient-to-br from-beige-200/30 to-beige-300/30 rounded-full blur-2xl animate-float-reverse"></div>
+        <div className="absolute bottom-16 right-20 w-40 h-40 bg-gradient-to-br from-beige-100/25 to-beige-200/25 rounded-full blur-3xl animate-float"></div>
+        <div className="absolute top-1/2 right-1/3 w-6 h-6 bg-beige-300/50 rounded-full animate-drift" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute bottom-1/3 left-1/4 w-4 h-4 bg-beige-400/60 rounded-full animate-float" style={{ animationDelay: '4s' }}></div>
       </div>
       
       {/* Parallax background layer */}
@@ -35,8 +35,8 @@ const Experience: React.FC = () => {
         className="absolute inset-0 opacity-8"
         style={{ transform: `translateY(${parallaxOffset}px)` }}
       >
-        <div className="absolute top-60 left-32 w-16 h-16 bg-olive-400 rounded-full blur-xl"></div>
-        <div className="absolute bottom-40 right-32 w-24 h-24 bg-olive-300 rounded-full blur-xl"></div>
+        <div className="absolute top-60 left-32 w-16 h-16 bg-beige-400 rounded-full blur-xl"></div>
+        <div className="absolute bottom-40 right-32 w-24 h-24 bg-beige-300 rounded-full blur-xl"></div>
       </div>
       
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

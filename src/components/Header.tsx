@@ -37,13 +37,13 @@ const Header: React.FC = () => {
           
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              {['experience', 'achievements', 'contact'].map((item) => (
+              {['experience', 'skills', 'achievements', 'contact'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item)}
                   className="text-gray-700 hover:text-olive-300 px-3 py-2 text-sm font-medium transition-colors duration-200 capitalize"
                 >
-                  {item}
+                  {item === 'skills' ? 'Technical Skills' : item}
                 </button>
               ))}
             </div>
@@ -61,13 +61,13 @@ const Header: React.FC = () => {
 
         {isMenuOpen && (
           <div className="md:hidden bg-white/95 backdrop-blur-md rounded-lg mt-2 p-4 shadow-lg">
-            {['experience', 'achievements', 'contact'].map((item) => (
+            {['experience', 'skills', 'achievements', 'contact'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}
                 className="block w-full text-left text-gray-700 hover:text-olive-300 px-3 py-2 text-sm font-medium transition-colors duration-200 capitalize"
               >
-                {item}
+                {item === 'skills' ? 'Technical Skills' : item}
               </button>
             ))}
           </div>
